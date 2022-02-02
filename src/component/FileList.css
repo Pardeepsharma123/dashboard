@@ -1,0 +1,37 @@
+.file_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border-top: 1.5px solid lightgray;
+
+}
+.file_list:hover{
+    background-color: #DEECF9;
+}
+.left{
+    width: 250px;
+    display: flex;
+    /* border: 1px solid black; */
+}
+.middle{
+    width: 300px;
+    /* border: 1px solid black; */
+}
+.right{
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+
+
+}
+.toggle{
+    margin-top: 7px;
+}
+.delete_icon{
+    color: #124078;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
